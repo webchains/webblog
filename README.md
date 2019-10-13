@@ -1,29 +1,10 @@
-# webblog
+# Webblog
 
-## Project setup
-```
-npm install
-```
+Webblog is the optional front-end ui for the Webcoin backend.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+To configure Webboard to you liking, use the .env file to set up the front-end
 
-### Compiles and minifies for production
-```
-npm run build
-```
+here are the options
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+VUE_APP_NODE=domain -> domain of the webcoin node you are running
+VUE_APP_HIDE=number -> 0 to show your public address, 1 to show a hashed version of your public address
